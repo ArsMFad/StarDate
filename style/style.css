@@ -1,0 +1,118 @@
+body {
+	background-image: url(../img/backsite.jpg);
+	background-position: -82px 0px;
+}
+
+.stardate_h1, .stardate_h2 {
+	text-align: center;
+	margin: auto;
+}
+
+.stardate_h1 {
+	position: relative;
+	right: 300px;
+	font-size: 70px;
+	color: yellow;
+}
+
+.stardate_h2 {
+	position: relative;
+	right: 300px;
+	font-size: 20px;
+	color: grey;
+}
+
+.starlogo {
+	position: absolute;
+	right: 10px;
+	width: 92px;
+	height: 150px;
+	background-image: url(../img/startreklogo.png);
+	background-repeat: no-repeat;
+	background-size: 92px 150px;
+}
+
+.b3zlogo {
+	position: absolute;
+	left: 10px;
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/b3zlogo.png);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+}
+
+
+
+.date_input {
+	margin: auto;
+	display: flex;
+	width: 1000px;
+}
+
+.inp_h4 {
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+}
+
+.glob_inp {
+	margin: auto;
+}
+
+.inp_css {
+	font-size: 50px;
+	text-align: center;
+	border: 2px solid red;
+	margin: auto;
+}
+
+.day_inp_css {
+	width: 60px;
+}
+
+.month_inp_css {
+	width: 205px;
+}
+
+.year_inp_css {
+	width: 115px;
+}
+
+.hour_inp_css {
+	width: 60px;
+}
+
+.minute_inp_css {
+	width: 60px;
+}
+
+.second_inp_css {
+	width: 60px;
+}
+
+
+.make_magic {
+	position: relative;
+	top: 50px;
+	left: 425px;
+	width: 500px;
+	height: 50px;
+	margin: auto;
+	border: 1px solid red;
+	color: white;
+	background-color: red;
+}
+
+
+.stardate_output {
+	margin-top: 70px;
+}
+
+.stardate_output_h2 {
+	margin: auto;
+	width: 500px;
+	height: 250px;
+	border: 2px solid red;
+	border-radius: 25px;
+}
